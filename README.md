@@ -156,3 +156,9 @@ A continuación se relacionan las siete capturas de pantalla almacenadas en el d
 5. **Parte 2 — Checkpoint 1:** `capturas/CP1_traza_suma.png` (Traza instrucción por instrucción del programa de suma con `T`).
 6. **Parte 2 — Checkpoint 2:** `capturas/CP2_traza_loop.png` (Traza del bucle con `LOOP` y análisis de código máquina).
 7. **Parte 2 — Checkpoint 3:** `capturas/CP3_traza_dec_jnz.png` (Traza del bucle equivalente `DEC`/`JNZ` y ejecución rápida con `G`).
+
+---
+
+### Especificaciones del Entorno de Ejecución
+
+El laboratorio fue desarrollado en el emulador **DOSBox** utilizando la herramienta **DEBUG.EXE** (modo real de 16 bits, arquitectura Intel 8086/x86) bajo la estructura de directorios `LAB3POST1` y `LAB3POST2`, manteniendo el control de versiones mediante **Git** y **GitHub**.
