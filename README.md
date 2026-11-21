@@ -142,3 +142,17 @@ Al verificar el resultado final de un bucle con 100 iteraciones (`CX = 0064`), e
 
 Mediante el desarrollo de este laboratorio en DOSBox, el estudiante comprobó el funcionamiento interno de la arquitectura x86 en modo real, verificando cómo el procesador interpreta indistintamente código y datos en memoria y almacena palabras de 16 bits en formato \*little-endian\*. Asimismo, el uso combinado de los comandos `R`, `D`, `F`, `E`, `U`, `A`, `T` y `G` permitió contrastar la inspección no destructiva de memoria frente a la modificación puntual, así como evaluar el impacto en tamaño de código y ciclos de ejecución entre estructuras de control como `LOOP` y `DEC/JNZ`.
 
+
+---
+
+### Evidencias Visuales del Laboratorio
+
+A continuación se relacionan las siete capturas de pantalla almacenadas en el directorio `capturas/` que respaldan cada checkpoint de la práctica:
+
+1. **Parte 1 — Checkpoint 1:** `capturas/CP1_registros.png` (Inspección y modificación de registros con `R`).
+2. **Parte 1 — Checkpoint 2:** `capturas/CP2_volcado_memoria.png` (Volcado y llenado de memoria con `D` y `F`).
+3. **Parte 1 — Checkpoint 3:** `capturas/CP3_ensamblado_desensamblado.png` (Ensamblado y desensamblado con `A` y `U`).
+4. **Parte 1 — Checkpoint 4:** `capturas/CP4_memoria_direccionamiento.png` (Escritura puntual con `E` y direccionamiento directo).
+5. **Parte 2 — Checkpoint 1:** `capturas/CP1_traza_suma.png` (Traza instrucción por instrucción del programa de suma con `T`).
+6. **Parte 2 — Checkpoint 2:** `capturas/CP2_traza_loop.png` (Traza del bucle con `LOOP` y análisis de código máquina).
+7. **Parte 2 — Checkpoint 3:** `capturas/CP3_traza_dec_jnz.png` (Traza del bucle equivalente `DEC`/`JNZ` y ejecución rápida con `G`).
